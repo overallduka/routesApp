@@ -21,6 +21,8 @@
 		12FFAF081B1A63B50082E950 /* ResponseRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FFAF071B1A63B50082E950 /* ResponseRouter.swift */; };
 		12FFAF0A1B1A63C10082E950 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FFAF091B1A63C10082E950 /* Parser.swift */; };
 		12FFAF0E1B1A63D70082E950 /* DataType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FFAF0D1B1A63D70082E950 /* DataType.swift */; };
+		12FFAF101B1A641C0082E950 /* StopTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FFAF0F1B1A641C0082E950 /* StopTableView.swift */; };
+		12FFAF121B1A64300082E950 /* TimetableTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FFAF111B1A64300082E950 /* TimetableTableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +54,8 @@
 		12FFAF071B1A63B50082E950 /* ResponseRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseRouter.swift; sourceTree = "<group>"; };
 		12FFAF091B1A63C10082E950 /* Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
 		12FFAF0D1B1A63D70082E950 /* DataType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataType.swift; sourceTree = "<group>"; };
+		12FFAF0F1B1A641C0082E950 /* StopTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StopTableView.swift; sourceTree = "<group>"; };
+		12FFAF111B1A64300082E950 /* TimetableTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimetableTableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +138,8 @@
 		12FFAEF91B1A62C80082E950 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				12FFAF0F1B1A641C0082E950 /* StopTableView.swift */,
+				12FFAF111B1A64300082E950 /* TimetableTableView.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -269,6 +275,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				12FFAEFD1B1A63350082E950 /* Route.swift in Sources */,
+				12FFAF121B1A64300082E950 /* TimetableTableView.swift in Sources */,
+				12FFAF101B1A641C0082E950 /* StopTableView.swift in Sources */,
 				12FFAF011B1A63510082E950 /* TimeTable.swift in Sources */,
 				12FFAF041B1A638F0082E950 /* RoutesAPI.swift in Sources */,
 				12FFAF061B1A639E0082E950 /* HTTPClient.swift in Sources */,
