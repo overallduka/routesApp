@@ -13,6 +13,9 @@
 		12FFAEE11B1A624E0082E950 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12FFAEE01B1A624E0082E950 /* Images.xcassets */; };
 		12FFAEE41B1A624E0082E950 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12FFAEE21B1A624E0082E950 /* LaunchScreen.xib */; };
 		12FFAEF01B1A624F0082E950 /* ArcTouchRoutesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FFAEEF1B1A624F0082E950 /* ArcTouchRoutesTests.swift */; };
+		12FFAEFD1B1A63350082E950 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FFAEFC1B1A63350082E950 /* Route.swift */; };
+		12FFAEFF1B1A63420082E950 /* Stop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FFAEFE1B1A63420082E950 /* Stop.swift */; };
+		12FFAF011B1A63510082E950 /* TimeTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FFAF001B1A63510082E950 /* TimeTable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		12FFAEE91B1A624F0082E950 /* ArcTouchRoutesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArcTouchRoutesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		12FFAEEE1B1A624F0082E950 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		12FFAEEF1B1A624F0082E950 /* ArcTouchRoutesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcTouchRoutesTests.swift; sourceTree = "<group>"; };
+		12FFAEFC1B1A63350082E950 /* Route.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
+		12FFAEFE1B1A63420082E950 /* Stop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stop.swift; sourceTree = "<group>"; };
+		12FFAF001B1A63510082E950 /* TimeTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeTable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +83,7 @@
 		12FFAED61B1A624E0082E950 /* ArcTouchRoutes */ = {
 			isa = PBXGroup;
 			children = (
+				12FFAF021B1A635A0082E950 /* API */,
 				12FFAEFB1B1A62DA0082E950 /* Controller */,
 				12FFAEFA1B1A62D40082E950 /* Model */,
 				12FFAEF91B1A62C80082E950 /* View */,
@@ -124,6 +131,9 @@
 		12FFAEFA1B1A62D40082E950 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				12FFAEFC1B1A63350082E950 /* Route.swift */,
+				12FFAEFE1B1A63420082E950 /* Stop.swift */,
+				12FFAF001B1A63510082E950 /* TimeTable.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -134,6 +144,13 @@
 				12FFAEDB1B1A624E0082E950 /* ViewController.swift */,
 			);
 			name = Controller;
+			sourceTree = "<group>";
+		};
+		12FFAF021B1A635A0082E950 /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = API;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,8 +253,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12FFAEFD1B1A63350082E950 /* Route.swift in Sources */,
+				12FFAF011B1A63510082E950 /* TimeTable.swift in Sources */,
 				12FFAEDC1B1A624E0082E950 /* ViewController.swift in Sources */,
 				12FFAEDA1B1A624E0082E950 /* AppDelegate.swift in Sources */,
+				12FFAEFF1B1A63420082E950 /* Stop.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
