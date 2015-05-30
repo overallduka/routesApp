@@ -33,6 +33,7 @@
 		12FFAF301B1A64CA0082E950 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 12FFAF261B1A64CA0082E950 /* AFURLResponseSerialization.m */; };
 		12FFAF311B1A64CA0082E950 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 12FFAF281B1A64CA0082E950 /* AFURLSessionManager.m */; };
 		12FFAF331B1A654E0082E950 /* RouteDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FFAF321B1A654E0082E950 /* RouteDetailsController.swift */; };
+		12FFAF351B1A661F0082E950 /* GoogleMapsM4B.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12FFAF341B1A661F0082E950 /* GoogleMapsM4B.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +88,7 @@
 		12FFAF271B1A64CA0082E950 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
 		12FFAF281B1A64CA0082E950 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
 		12FFAF321B1A654E0082E950 /* RouteDetailsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouteDetailsController.swift; sourceTree = "<group>"; };
+		12FFAF341B1A661F0082E950 /* GoogleMapsM4B.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMapsM4B.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12FFAF351B1A661F0082E950 /* GoogleMapsM4B.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,6 +214,7 @@
 		12FFAF141B1A64BE0082E950 /* Lib */ = {
 			isa = PBXGroup;
 			children = (
+				12FFAF341B1A661F0082E950 /* GoogleMapsM4B.framework */,
 				12FFAF151B1A64CA0082E950 /* AFNetworking */,
 			);
 			name = Lib;
@@ -486,6 +490,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ArcTouchRoutes",
+				);
 				INFOPLIST_FILE = ArcTouchRoutes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -497,6 +505,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ArcTouchRoutes",
+				);
 				INFOPLIST_FILE = ArcTouchRoutes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
