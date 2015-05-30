@@ -7,4 +7,5 @@
 //
 
 #import "AFNetworking.h"
+#import "GoogleMapsM4B/GoogleMaps.h"
 
