@@ -32,6 +32,7 @@
 		12FFAF2F1B1A64CA0082E950 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 12FFAF241B1A64CA0082E950 /* AFURLRequestSerialization.m */; };
 		12FFAF301B1A64CA0082E950 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 12FFAF261B1A64CA0082E950 /* AFURLResponseSerialization.m */; };
 		12FFAF311B1A64CA0082E950 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 12FFAF281B1A64CA0082E950 /* AFURLSessionManager.m */; };
+		12FFAF331B1A654E0082E950 /* RouteDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FFAF321B1A654E0082E950 /* RouteDetailsController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +86,7 @@
 		12FFAF261B1A64CA0082E950 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
 		12FFAF271B1A64CA0082E950 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
 		12FFAF281B1A64CA0082E950 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		12FFAF321B1A654E0082E950 /* RouteDetailsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouteDetailsController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,6 +191,7 @@
 			isa = PBXGroup;
 			children = (
 				12FFAEDB1B1A624E0082E950 /* ViewController.swift */,
+				12FFAF321B1A654E0082E950 /* RouteDetailsController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -351,6 +354,7 @@
 				12FFAF041B1A638F0082E950 /* RoutesAPI.swift in Sources */,
 				12FFAF061B1A639E0082E950 /* HTTPClient.swift in Sources */,
 				12FFAF2D1B1A64CA0082E950 /* AFSecurityPolicy.m in Sources */,
+				12FFAF331B1A654E0082E950 /* RouteDetailsController.swift in Sources */,
 				12FFAEDC1B1A624E0082E950 /* ViewController.swift in Sources */,
 				12FFAF2F1B1A64CA0082E950 /* AFURLRequestSerialization.m in Sources */,
 				12FFAF0A1B1A63C10082E950 /* Parser.swift in Sources */,
