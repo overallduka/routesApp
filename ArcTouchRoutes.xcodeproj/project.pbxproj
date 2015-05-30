@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12FFAEDA1B1A624E0082E950 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FFAED91B1A624E0082E950 /* AppDelegate.swift */; };
+		12FFAEDC1B1A624E0082E950 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FFAEDB1B1A624E0082E950 /* ViewController.swift */; };
+		12FFAEDF1B1A624E0082E950 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12FFAEDD1B1A624E0082E950 /* Main.storyboard */; };
+		12FFAEE11B1A624E0082E950 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12FFAEE01B1A624E0082E950 /* Images.xcassets */; };
+		12FFAEE41B1A624E0082E950 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12FFAEE21B1A624E0082E950 /* LaunchScreen.xib */; };
+		12FFAEF01B1A624F0082E950 /* ArcTouchRoutesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FFAEEF1B1A624F0082E950 /* ArcTouchRoutesTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		12FFAEEA1B1A624F0082E950 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12FFAECC1B1A624E0082E950 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12FFAED31B1A624E0082E950;
+			remoteInfo = ArcTouchRoutes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12FFAED41B1A624E0082E950 /* ArcTouchRoutes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArcTouchRoutes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		12FFAED81B1A624E0082E950 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12FFAED91B1A624E0082E950 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		12FFAEDB1B1A624E0082E950 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		12FFAEDE1B1A624E0082E950 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		12FFAEE01B1A624E0082E950 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		12FFAEE31B1A624E0082E950 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		12FFAEE91B1A624F0082E950 /* ArcTouchRoutesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArcTouchRoutesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		12FFAEEE1B1A624F0082E950 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12FFAEEF1B1A624F0082E950 /* ArcTouchRoutesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcTouchRoutesTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12FFAED11B1A624E0082E950 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12FFAEE61B1A624F0082E950 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12FFAECB1B1A624E0082E950 = {
+			isa = PBXGroup;
+			children = (
+				12FFAED61B1A624E0082E950 /* ArcTouchRoutes */,
+				12FFAEEC1B1A624F0082E950 /* ArcTouchRoutesTests */,
+				12FFAED51B1A624E0082E950 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		12FFAED51B1A624E0082E950 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12FFAED41B1A624E0082E950 /* ArcTouchRoutes.app */,
+				12FFAEE91B1A624F0082E950 /* ArcTouchRoutesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		12FFAED61B1A624E0082E950 /* ArcTouchRoutes */ = {
+			isa = PBXGroup;
+			children = (
+				12FFAED91B1A624E0082E950 /* AppDelegate.swift */,
+				12FFAEDB1B1A624E0082E950 /* ViewController.swift */,
+				12FFAEDD1B1A624E0082E950 /* Main.storyboard */,
+				12FFAEE01B1A624E0082E950 /* Images.xcassets */,
+				12FFAEE21B1A624E0082E950 /* LaunchScreen.xib */,
+				12FFAED71B1A624E0082E950 /* Supporting Files */,
+			);
+			path = ArcTouchRoutes;
+			sourceTree = "<group>";
+		};
+		12FFAED71B1A624E0082E950 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				12FFAED81B1A624E0082E950 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		12FFAEEC1B1A624F0082E950 /* ArcTouchRoutesTests */ = {
+			isa = PBXGroup;
+			children = (
+				12FFAEEF1B1A624F0082E950 /* ArcTouchRoutesTests.swift */,
+				12FFAEED1B1A624F0082E950 /* Supporting Files */,
+			);
+			path = ArcTouchRoutesTests;
+			sourceTree = "<group>";
+		};
+		12FFAEED1B1A624F0082E950 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				12FFAEEE1B1A624F0082E950 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		12FFAED31B1A624E0082E950 /* ArcTouchRoutes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12FFAEF31B1A624F0082E950 /* Build configuration list for PBXNativeTarget "ArcTouchRoutes" */;
+			buildPhases = (
+				12FFAED01B1A624E0082E950 /* Sources */,
+				12FFAED11B1A624E0082E950 /* Frameworks */,
+				12FFAED21B1A624E0082E950 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArcTouchRoutes;
+			productName = ArcTouchRoutes;
+			productReference = 12FFAED41B1A624E0082E950 /* ArcTouchRoutes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		12FFAEE81B1A624F0082E950 /* ArcTouchRoutesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12FFAEF61B1A624F0082E950 /* Build configuration list for PBXNativeTarget "ArcTouchRoutesTests" */;
+			buildPhases = (
+				12FFAEE51B1A624F0082E950 /* Sources */,
+				12FFAEE61B1A624F0082E950 /* Frameworks */,
+				12FFAEE71B1A624F0082E950 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12FFAEEB1B1A624F0082E950 /* PBXTargetDependency */,
+			);
+			name = ArcTouchRoutesTests;
+			productName = ArcTouchRoutesTests;
+			productReference = 12FFAEE91B1A624F0082E950 /* ArcTouchRoutesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		12FFAECC1B1A624E0082E950 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Marcelo Oliveira";
+				TargetAttributes = {
+					12FFAED31B1A624E0082E950 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					12FFAEE81B1A624F0082E950 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 12FFAED31B1A624E0082E950;
+					};
+				};
+			};
+			buildConfigurationList = 12FFAECF1B1A624E0082E950 /* Build configuration list for PBXProject "ArcTouchRoutes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 12FFAECB1B1A624E0082E950;
+			productRefGroup = 12FFAED51B1A624E0082E950 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				12FFAED31B1A624E0082E950 /* ArcTouchRoutes */,
+				12FFAEE81B1A624F0082E950 /* ArcTouchRoutesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		12FFAED21B1A624E0082E950 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12FFAEDF1B1A624E0082E950 /* Main.storyboard in Resources */,
+				12FFAEE41B1A624E0082E950 /* LaunchScreen.xib in Resources */,
+				12FFAEE11B1A624E0082E950 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12FFAEE71B1A624F0082E950 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12FFAED01B1A624E0082E950 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12FFAEDC1B1A624E0082E950 /* ViewController.swift in Sources */,
+				12FFAEDA1B1A624E0082E950 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12FFAEE51B1A624F0082E950 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12FFAEF01B1A624F0082E950 /* ArcTouchRoutesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		12FFAEEB1B1A624F0082E950 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12FFAED31B1A624E0082E950 /* ArcTouchRoutes */;
+			targetProxy = 12FFAEEA1B1A624F0082E950 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		12FFAEDD1B1A624E0082E950 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12FFAEDE1B1A624E0082E950 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		12FFAEE21B1A624E0082E950 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12FFAEE31B1A624E0082E950 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		12FFAEF11B1A624F0082E950 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		12FFAEF21B1A624F0082E950 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		12FFAEF41B1A624F0082E950 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ArcTouchRoutes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		12FFAEF51B1A624F0082E950 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ArcTouchRoutes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		12FFAEF71B1A624F0082E950 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ArcTouchRoutesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArcTouchRoutes.app/ArcTouchRoutes";
+			};
+			name = Debug;
+		};
+		12FFAEF81B1A624F0082E950 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ArcTouchRoutesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArcTouchRoutes.app/ArcTouchRoutes";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12FFAECF1B1A624E0082E950 /* Build configuration list for PBXProject "ArcTouchRoutes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12FFAEF11B1A624F0082E950 /* Debug */,
+				12FFAEF21B1A624F0082E950 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12FFAEF31B1A624F0082E950 /* Build configuration list for PBXNativeTarget "ArcTouchRoutes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12FFAEF41B1A624F0082E950 /* Debug */,
+				12FFAEF51B1A624F0082E950 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		12FFAEF61B1A624F0082E950 /* Build configuration list for PBXNativeTarget "ArcTouchRoutesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12FFAEF71B1A624F0082E950 /* Debug */,
+				12FFAEF81B1A624F0082E950 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 12FFAECC1B1A624E0082E950 /* Project object */;
+}
