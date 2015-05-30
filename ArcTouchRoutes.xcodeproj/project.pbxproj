@@ -77,8 +77,10 @@
 		12FFAED61B1A624E0082E950 /* ArcTouchRoutes */ = {
 			isa = PBXGroup;
 			children = (
+				12FFAEFB1B1A62DA0082E950 /* Controller */,
+				12FFAEFA1B1A62D40082E950 /* Model */,
+				12FFAEF91B1A62C80082E950 /* View */,
 				12FFAED91B1A624E0082E950 /* AppDelegate.swift */,
-				12FFAEDB1B1A624E0082E950 /* ViewController.swift */,
 				12FFAEDD1B1A624E0082E950 /* Main.storyboard */,
 				12FFAEE01B1A624E0082E950 /* Images.xcassets */,
 				12FFAEE21B1A624E0082E950 /* LaunchScreen.xib */,
@@ -110,6 +112,28 @@
 				12FFAEEE1B1A624F0082E950 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		12FFAEF91B1A62C80082E950 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		12FFAEFA1B1A62D40082E950 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		12FFAEFB1B1A62DA0082E950 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				12FFAEDB1B1A624E0082E950 /* ViewController.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
