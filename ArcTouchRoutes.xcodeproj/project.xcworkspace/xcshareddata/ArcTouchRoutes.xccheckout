@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>142DA7B4-831B-4723-A931-6B1C3A4EE59A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ArcTouchRoutes</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>799E9E00FEB4FA1D0A246953A884E925A3C5F71E</key>
+		<string>https://github.com/overallduka/routesApp.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ArcTouchRoutes.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>799E9E00FEB4FA1D0A246953A884E925A3C5F71E</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/overallduka/routesApp.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>799E9E00FEB4FA1D0A246953A884E925A3C5F71E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>799E9E00FEB4FA1D0A246953A884E925A3C5F71E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ArcTouchRoutes</string>
+		</dict>
+	</array>
+</dict>
+</plist>

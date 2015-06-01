@@ -13,6 +13,26 @@
 		12FFAEE11B1A624E0082E950 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12FFAEE01B1A624E0082E950 /* Images.xcassets */; };
 		12FFAEE41B1A624E0082E950 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12FFAEE21B1A624E0082E950 /* LaunchScreen.xib */; };
 		12FFAEF01B1A624F0082E950 /* ArcTouchRoutesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FFAEEF1B1A624F0082E950 /* ArcTouchRoutesTests.swift */; };
+		12FFAEFD1B1A63350082E950 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FFAEFC1B1A63350082E950 /* Route.swift */; };
+		12FFAEFF1B1A63420082E950 /* Stop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FFAEFE1B1A63420082E950 /* Stop.swift */; };
+		12FFAF011B1A63510082E950 /* TimeTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FFAF001B1A63510082E950 /* TimeTable.swift */; };
+		12FFAF041B1A638F0082E950 /* RoutesAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FFAF031B1A638F0082E950 /* RoutesAPI.swift */; };
+		12FFAF061B1A639E0082E950 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FFAF051B1A639E0082E950 /* HTTPClient.swift */; };
+		12FFAF081B1A63B50082E950 /* ResponseRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FFAF071B1A63B50082E950 /* ResponseRouter.swift */; };
+		12FFAF0A1B1A63C10082E950 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FFAF091B1A63C10082E950 /* Parser.swift */; };
+		12FFAF0E1B1A63D70082E950 /* DataType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FFAF0D1B1A63D70082E950 /* DataType.swift */; };
+		12FFAF101B1A641C0082E950 /* StopTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FFAF0F1B1A641C0082E950 /* StopTableView.swift */; };
+		12FFAF121B1A64300082E950 /* TimetableTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FFAF111B1A64300082E950 /* TimetableTableView.swift */; };
+		12FFAF291B1A64CA0082E950 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 12FFAF171B1A64CA0082E950 /* AFHTTPRequestOperation.m */; };
+		12FFAF2A1B1A64CA0082E950 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 12FFAF191B1A64CA0082E950 /* AFHTTPRequestOperationManager.m */; };
+		12FFAF2B1B1A64CA0082E950 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 12FFAF1B1B1A64CA0082E950 /* AFHTTPSessionManager.m */; };
+		12FFAF2C1B1A64CA0082E950 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 12FFAF1E1B1A64CA0082E950 /* AFNetworkReachabilityManager.m */; };
+		12FFAF2D1B1A64CA0082E950 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 12FFAF201B1A64CA0082E950 /* AFSecurityPolicy.m */; };
+		12FFAF2E1B1A64CA0082E950 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 12FFAF221B1A64CA0082E950 /* AFURLConnectionOperation.m */; };
+		12FFAF2F1B1A64CA0082E950 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 12FFAF241B1A64CA0082E950 /* AFURLRequestSerialization.m */; };
+		12FFAF301B1A64CA0082E950 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 12FFAF261B1A64CA0082E950 /* AFURLResponseSerialization.m */; };
+		12FFAF311B1A64CA0082E950 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 12FFAF281B1A64CA0082E950 /* AFURLSessionManager.m */; };
+		12FFAF331B1A654E0082E950 /* RouteDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FFAF321B1A654E0082E950 /* RouteDetailsController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +56,37 @@
 		12FFAEE91B1A624F0082E950 /* ArcTouchRoutesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArcTouchRoutesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		12FFAEEE1B1A624F0082E950 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		12FFAEEF1B1A624F0082E950 /* ArcTouchRoutesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcTouchRoutesTests.swift; sourceTree = "<group>"; };
+		12FFAEFC1B1A63350082E950 /* Route.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
+		12FFAEFE1B1A63420082E950 /* Stop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stop.swift; sourceTree = "<group>"; };
+		12FFAF001B1A63510082E950 /* TimeTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeTable.swift; sourceTree = "<group>"; };
+		12FFAF031B1A638F0082E950 /* RoutesAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoutesAPI.swift; sourceTree = "<group>"; };
+		12FFAF051B1A639E0082E950 /* HTTPClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
+		12FFAF071B1A63B50082E950 /* ResponseRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseRouter.swift; sourceTree = "<group>"; };
+		12FFAF091B1A63C10082E950 /* Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+		12FFAF0D1B1A63D70082E950 /* DataType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataType.swift; sourceTree = "<group>"; };
+		12FFAF0F1B1A641C0082E950 /* StopTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StopTableView.swift; sourceTree = "<group>"; };
+		12FFAF111B1A64300082E950 /* TimetableTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimetableTableView.swift; sourceTree = "<group>"; };
+		12FFAF131B1A64A80082E950 /* ArcTouchRoutes-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ArcTouchRoutes-Bridging-Header.h"; sourceTree = "<group>"; };
+		12FFAF161B1A64CA0082E950 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		12FFAF171B1A64CA0082E950 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		12FFAF181B1A64CA0082E950 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		12FFAF191B1A64CA0082E950 /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		12FFAF1A1B1A64CA0082E950 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		12FFAF1B1B1A64CA0082E950 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		12FFAF1C1B1A64CA0082E950 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		12FFAF1D1B1A64CA0082E950 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		12FFAF1E1B1A64CA0082E950 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		12FFAF1F1B1A64CA0082E950 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		12FFAF201B1A64CA0082E950 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		12FFAF211B1A64CA0082E950 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		12FFAF221B1A64CA0082E950 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		12FFAF231B1A64CA0082E950 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		12FFAF241B1A64CA0082E950 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		12FFAF251B1A64CA0082E950 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		12FFAF261B1A64CA0082E950 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		12FFAF271B1A64CA0082E950 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		12FFAF281B1A64CA0082E950 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		12FFAF321B1A654E0082E950 /* RouteDetailsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouteDetailsController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +128,12 @@
 		12FFAED61B1A624E0082E950 /* ArcTouchRoutes */ = {
 			isa = PBXGroup;
 			children = (
+				12FFAF141B1A64BE0082E950 /* Lib */,
+				12FFAF021B1A635A0082E950 /* API */,
+				12FFAEFB1B1A62DA0082E950 /* Controller */,
+				12FFAEFA1B1A62D40082E950 /* Model */,
+				12FFAEF91B1A62C80082E950 /* View */,
 				12FFAED91B1A624E0082E950 /* AppDelegate.swift */,
-				12FFAEDB1B1A624E0082E950 /* ViewController.swift */,
 				12FFAEDD1B1A624E0082E950 /* Main.storyboard */,
 				12FFAEE01B1A624E0082E950 /* Images.xcassets */,
 				12FFAEE21B1A624E0082E950 /* LaunchScreen.xib */,
@@ -91,6 +146,7 @@
 			isa = PBXGroup;
 			children = (
 				12FFAED81B1A624E0082E950 /* Info.plist */,
+				12FFAF131B1A64A80082E950 /* ArcTouchRoutes-Bridging-Header.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -110,6 +166,80 @@
 				12FFAEEE1B1A624F0082E950 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		12FFAEF91B1A62C80082E950 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				12FFAF0F1B1A641C0082E950 /* StopTableView.swift */,
+				12FFAF111B1A64300082E950 /* TimetableTableView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		12FFAEFA1B1A62D40082E950 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				12FFAEFC1B1A63350082E950 /* Route.swift */,
+				12FFAEFE1B1A63420082E950 /* Stop.swift */,
+				12FFAF001B1A63510082E950 /* TimeTable.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		12FFAEFB1B1A62DA0082E950 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				12FFAEDB1B1A624E0082E950 /* ViewController.swift */,
+				12FFAF321B1A654E0082E950 /* RouteDetailsController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		12FFAF021B1A635A0082E950 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				12FFAF051B1A639E0082E950 /* HTTPClient.swift */,
+				12FFAF031B1A638F0082E950 /* RoutesAPI.swift */,
+				12FFAF071B1A63B50082E950 /* ResponseRouter.swift */,
+				12FFAF091B1A63C10082E950 /* Parser.swift */,
+				12FFAF0D1B1A63D70082E950 /* DataType.swift */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		12FFAF141B1A64BE0082E950 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				12FFAF151B1A64CA0082E950 /* AFNetworking */,
+			);
+			name = Lib;
+			sourceTree = "<group>";
+		};
+		12FFAF151B1A64CA0082E950 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				12FFAF161B1A64CA0082E950 /* AFHTTPRequestOperation.h */,
+				12FFAF171B1A64CA0082E950 /* AFHTTPRequestOperation.m */,
+				12FFAF181B1A64CA0082E950 /* AFHTTPRequestOperationManager.h */,
+				12FFAF191B1A64CA0082E950 /* AFHTTPRequestOperationManager.m */,
+				12FFAF1A1B1A64CA0082E950 /* AFHTTPSessionManager.h */,
+				12FFAF1B1B1A64CA0082E950 /* AFHTTPSessionManager.m */,
+				12FFAF1C1B1A64CA0082E950 /* AFNetworking.h */,
+				12FFAF1D1B1A64CA0082E950 /* AFNetworkReachabilityManager.h */,
+				12FFAF1E1B1A64CA0082E950 /* AFNetworkReachabilityManager.m */,
+				12FFAF1F1B1A64CA0082E950 /* AFSecurityPolicy.h */,
+				12FFAF201B1A64CA0082E950 /* AFSecurityPolicy.m */,
+				12FFAF211B1A64CA0082E950 /* AFURLConnectionOperation.h */,
+				12FFAF221B1A64CA0082E950 /* AFURLConnectionOperation.m */,
+				12FFAF231B1A64CA0082E950 /* AFURLRequestSerialization.h */,
+				12FFAF241B1A64CA0082E950 /* AFURLRequestSerialization.m */,
+				12FFAF251B1A64CA0082E950 /* AFURLResponseSerialization.h */,
+				12FFAF261B1A64CA0082E950 /* AFURLResponseSerialization.m */,
+				12FFAF271B1A64CA0082E950 /* AFURLSessionManager.h */,
+				12FFAF281B1A64CA0082E950 /* AFURLSessionManager.m */,
+			);
+			path = AFNetworking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,8 +342,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12FFAF291B1A64CA0082E950 /* AFHTTPRequestOperation.m in Sources */,
+				12FFAEFD1B1A63350082E950 /* Route.swift in Sources */,
+				12FFAF121B1A64300082E950 /* TimetableTableView.swift in Sources */,
+				12FFAF311B1A64CA0082E950 /* AFURLSessionManager.m in Sources */,
+				12FFAF101B1A641C0082E950 /* StopTableView.swift in Sources */,
+				12FFAF2E1B1A64CA0082E950 /* AFURLConnectionOperation.m in Sources */,
+				12FFAF2A1B1A64CA0082E950 /* AFHTTPRequestOperationManager.m in Sources */,
+				12FFAF011B1A63510082E950 /* TimeTable.swift in Sources */,
+				12FFAF2C1B1A64CA0082E950 /* AFNetworkReachabilityManager.m in Sources */,
+				12FFAF041B1A638F0082E950 /* RoutesAPI.swift in Sources */,
+				12FFAF061B1A639E0082E950 /* HTTPClient.swift in Sources */,
+				12FFAF2D1B1A64CA0082E950 /* AFSecurityPolicy.m in Sources */,
+				12FFAF331B1A654E0082E950 /* RouteDetailsController.swift in Sources */,
 				12FFAEDC1B1A624E0082E950 /* ViewController.swift in Sources */,
+				12FFAF2F1B1A64CA0082E950 /* AFURLRequestSerialization.m in Sources */,
+				12FFAF0A1B1A63C10082E950 /* Parser.swift in Sources */,
+				12FFAF301B1A64CA0082E950 /* AFURLResponseSerialization.m in Sources */,
 				12FFAEDA1B1A624E0082E950 /* AppDelegate.swift in Sources */,
+				12FFAEFF1B1A63420082E950 /* Stop.swift in Sources */,
+				12FFAF2B1B1A64CA0082E950 /* AFHTTPSessionManager.m in Sources */,
+				12FFAF081B1A63B50082E950 /* ResponseRouter.swift in Sources */,
+				12FFAF0E1B1A63D70082E950 /* DataType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +489,7 @@
 				INFOPLIST_FILE = ArcTouchRoutes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ArcTouchRoutes/ArcTouchRoutes-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -349,6 +500,7 @@
 				INFOPLIST_FILE = ArcTouchRoutes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ArcTouchRoutes/ArcTouchRoutes-Bridging-Header.h";
 			};
 			name = Release;
 		};
